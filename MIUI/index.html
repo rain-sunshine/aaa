@@ -1,0 +1,2204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购物比价网</title>
+    <link rel="stylesheet" href="css/index.css">
+    <meta name="viewport" content="width=1226">
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <script src="js/jquery-3.3.1.js"></script>
+    <style>
+        @font-face {
+            font-family: 'iconfont';  /* project id 610498 */
+            src: url('font/iconfont.eot');
+            src: url('font/iconfont.eot?#iefix') format('embedded-opentype'),
+            url('font/iconfont.woff') format('woff'),
+            url('font/iconfont.ttf') format('truetype'),
+            url('font/iconfont.svg#iconfont') format('svg');
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="head_top">
+        <div class="box">
+            <div class="top_nav lt">
+                <nav>
+                    <a href="#">首页</a>
+                    <span class="sep">|</span>
+                    <a href="#"><b>淘宝商城</b></a>
+                    <span class="sep">|</span>
+                    <a href="#"><b>京东商城</b></a>
+                    <span class="sep">|</span>
+                    <a href="#">云服务</a>
+                    <span class="sep">|</span>
+                    <a href="#">热门商品</a>
+                    <span class="sep">|</span>
+                    <a href="#">大聚惠</a>
+                    <span class="sep">|</span>
+                    <a href="#">1折起</a>
+                    <span class="sep">|</span>
+                    <a href="#"><b>Select Region</b></a>
+                </nav>
+            </div>
+            <div class="top_cart rt">
+                <a href="#">登录</a>
+                <span class="sep">|</span>
+                <a href="#">注册</a>
+                <span class="sep">|</span>
+                <a href="#">消息通知</a>
+                <div class="shop_cart">
+                    <a href="#"><b class="ico">&#xe600;</b>
+                        购物车收藏( <b class="num">0</b> )</a>
+                    <div class="shop_msg">
+                        <p class="msg">购物车中还没有商品，赶紧选购吧！</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="search-nav">
+        <div class="container">
+            <div class="head_logo">
+                <a class="logo" href="#"><img src="images/logo.png" alt=""></a>
+            </div>
+            <div class="head_search rt">
+                <form class="search_form" action="#">
+                    <input class="search" type="text" />
+                    <input class="serc_btn" type="submit" value="&#xe611;" />
+                    <div class="search_hot_words">
+                        <a href="#">春装<b>女</b></a>
+                        <a href="#">风衣<b>长款</b></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+<div class="head_cont">
+    <div class="box">
+        <div class="container">
+            <div class="head_nav">
+                <ul>
+                    <li class="nav_item">
+                        <a class="list_lin" href="#">电器家用</a>
+                        <div class="item_child">
+                            <div class="container">
+                                <ul class="child_list">
+                                    <li class="first">
+                                        <div class="figure_thumb">
+                                            <a href="#">
+                                                <img src="images/max2_toubu.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="title">
+                                            <a href="#">小米<b>MIX 2S</b></a>
+                                        </div>
+                                        <P class="price"><b>3299</b>元起</P>
+                                        <div class="flag">
+                                            <div class="txt">新品</div>
+                                        </div>
+                                    </li>
+                                    <li class="">
+                                        <div class="figure_thumb">
+                                            <a href="#">
+                                                <img src="images/max2_toubu.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="title">
+                                            <a href="#">小米<b>MIX 2</b></a>
+                                        </div>
+                                        <P class="price"><b>3099</b>元起</P>
+                                        <div class="flag">
+                                            <div class="txt">热卖</div>
+                                        </div>
+                                    </li>
+                                    <li class="">
+                                        <div class="figure_thumb">
+                                            <a href="#">
+                                                <img src="images/max2_toubu.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="title">
+                                            <a href="#">小米<b>Note 3</b></a>
+                                        </div>
+                                        <P class="price"><b>1799</b>元起</P>
+                                        <div class="flag">
+                                            <div class="txt">热卖</div>
+                                        </div>
+                                    </li>
+                                    <li class="">
+                                        <div class="figure_thumb">
+                                            <a href="#">
+                                                <img src="images/max2_toubu.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="title">
+                                            <a href="#">小米<b>6</b></a>
+                                        </div>
+                                        <P class="price"><b>2299</b>元起</P>
+                                    </li>
+                                    <li class="">
+                                        <div class="figure_thumb">
+                                            <a href="#">
+                                                <img src="images/max2_toubu.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="title">
+                                            <a href="#">小米<b>Max 2</b></a>
+                                        </div>
+                                        <P class="price"><b>1399</b>元起</P>
+                                    </li>
+                                    <li class="">
+                                        <div class="figure_thumb">
+                                            <a href="#">
+                                                <img src="images/max2_toubu.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="title">
+                                            <a href="#">小米<b>5X</b></a>
+                                        </div>
+                                        <P class="price"><b>1299</b>元起</P>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav_item">
+                        <a class="list_lin" href="#">数码智能</a>
+                        <div class="item_child">
+                            <div class="container">
+                                <ul class="child_list">
+                                    <li class="first">
+                                        <div class="figure_thumb">
+                                            <a href="#">
+                                                <img src="images/max2_toubu.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="title">
+                                            <a href="#">红米<b>Note 5</b></a>
+                                        </div>
+                                        <P class="price"><b>1099</b>元起</P>
+                                        <div class="flag">
+                                            <div class="txt">新品</div>
+                                        </div>
+                                    </li>
+                                    <li class="">
+                                        <div class="figure_thumb">
+                                            <a href="#">
+                                                <img src="images/max2_toubu.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="title">
+                                            <a href="#">红米<b>5 Plus</b></a>
+                                        </div>
+                                        <P class="price"><b>999</b>元起</P>
+                                        <div class="flag">
+                                            <div class="txt">热卖</div>
+                                        </div>
+                                    </li>
+                                    <li class="">
+                                        <div class="figure_thumb">
+                                            <a href="#">
+                                                <img src="images/max2_toubu.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="title">
+                                            <a href="#">红米<b>5</b></a>
+                                        </div>
+                                        <P class="price"><b>799</b>元起</P>
+                                        <div class="flag">
+                                            <div class="txt">热卖</div>
+                                        </div>
+                                    </li>
+                                    <li class="">
+                                        <div class="figure_thumb">
+                                            <a href="#">
+                                                <img src="images/max2_toubu.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="title">
+                                            <a href="#">红米<b>5A</b></a>
+                                        </div>
+                                        <P class="price"><b>599</b>元起</P>
+                                        <div class="flag">
+                                            <div class="txt">热卖</div>
+                                        </div>
+                                    </li>
+                                    <li class="">
+                                        <div class="figure_thumb">
+                                            <a href="#">
+                                                <img src="images/max2_toubu.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="title">
+                                            <a href="#">红米<b>Note 5A</b> 标准版</a>
+                                        </div>
+                                        <P class="price"><b>669</b>元起</P>
+                                    </li>
+                                    <li class="">
+                                        <div class="figure_thumb">
+                                            <a href="#">
+                                                <img src="images/max2_toubu.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="title">
+                                            <a href="#">红米<b>Note 5A</b>高配版</a>
+                                        </div>
+                                        <P class="price"><b>899</b>元起</P>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav_item">
+                        <a class="list_lin" href="#">春装新品</a>
+                        <div class="item_child">
+                            <div class="container">
+                                <ul class="child_list">
+                                    <li class="first">
+                                        <div class="figure_thumb">
+                                            <a href="#">
+                                                <img src="images/max2_toubu.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="title">
+                                            <a href="#">小米电视<b>4S 55</b>英寸</a>
+                                        </div>
+                                        <P class="price"><b>2999</b>元</P>
+                                        <div class="flag">
+                                            <div class="txt">新品</div>
+                                        </div>
+                                    </li>
+                                    <li class="">
+                                        <div class="figure_thumb">
+                                            <a href="#">
+                                                <img src="images/max2_toubu.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="title">
+                                            <a href="#">小米电视<b>4A 32</b>英寸</a>
+                                        </div>
+                                        <P class="price"><b>999</b>元</P>
+                                        <div class="flag">
+                                            <div class="txt">热卖</div>
+                                        </div>
+                                    </li>
+                                    <li class="">
+                                        <div class="figure_thumb">
+                                            <a href="#">
+                                                <img src="images/max2_toubu.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="title">
+                                            <a href="#">小米电视<b>4A 43</b>英寸</a>
+                                        </div>
+                                        <P class="price"><b>1799</b>元</P>
+                                        <div class="flag">
+                                            <div class="txt">热卖</div>
+                                        </div>
+                                    </li>
+                                    <li class="">
+                                        <div class="figure_thumb">
+                                            <a href="#">
+                                                <img src="images/max2_toubu.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="title">
+                                            <a href="#">小米电视<b>4A 50</b>英寸</a>
+                                        </div>
+                                        <P class="price"><b>2199</b>元</P>
+                                        <div class="flag">
+                                            <div class="txt">热卖</div>
+                                        </div>
+                                    </li>
+                                    <li class="">
+                                        <div class="figure_thumb">
+                                            <a href="#">
+                                                <img src="images/max2_toubu.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="title">
+                                            <a href="#">小米电视<b>4A 55</b>英寸</a>
+                                        </div>
+                                        <P class="price"><b>2699</b>元</P>
+                                    </li>
+                                    <li class="">
+                                        <div class="figure_thumb">
+                                            <a href="#">
+                                                <img src="images/max2_toubu.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="title">
+                                            <a href="#">查看全部</a>
+                                        </div>
+                                        <div class="title">
+                                            <a href="#">小米电视</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav_item">
+                        <a class="list_lin" href="#">夏装上新</a>
+                        <div class="item_child">
+                            <div class="container">
+                                <ul class="child_list">
+                                    <li class="first">
+                                        <div class="figure_thumb">
+                                            <a href="#">
+                                                <img src="images/max2_toubu.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="title">
+                                            <a href="#">小米游戏本<b> 15.6"</b></a>
+                                        </div>
+                                        <P class="price"><b>5999</b>元</P>
+                                    </li>
+                                    <li class="">
+                                        <div class="figure_thumb">
+                                            <a href="#">
+                                                <img src="images/max2_toubu.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="title">
+                                            <a href="#">小米笔记本<b>Air 12.5"</b></a>
+                                        </div>
+                                        <P class="price"><b>3599</b>元</P>
+                                    </li>
+                                    <li class="">
+                                        <div class="figure_thumb">
+                                            <a href="#">
+                                                <img src="images/max2_toubu.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="title">
+                                            <a href="#">小米笔记本<b>Air 13.3"</b> 四核增强</a>
+                                        </div>
+                                        <P class="price"><b>5399</b>元</P>
+                                    </li>
+                                    <li class="">
+                                        <div class="figure_thumb">
+                                            <a href="#">
+                                                <img src="images/max2_toubu.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="title">
+                                            <a href="#">小米笔记本<b>Air 13.3"</b> 独显</a>
+                                        </div>
+                                        <P class="price"><b>5199</b>元</P>
+                                    </li>
+                                    <li class="">
+                                        <div class="figure_thumb">
+                                            <a href="#">
+                                                <img src="images/max2_toubu.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="title">
+                                            <a href="#">小米笔记本<b>Air 13.3"</b> 集显</a>
+                                        </div>
+                                        <P class="price"><b>4599</b>元</P>
+                                    </li>
+                                    <li class="">
+                                        <div class="figure_thumb">
+                                            <a href="#">
+                                                <img src="images/max2_toubu.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="title">
+                                            <a href="#">小米笔记本<b>Pro 15.6"</b></a>
+                                        </div>
+                                        <P class="price"><b>5599</b>元</P>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav_item">
+                        <a class="list_lin" href="#">男装潮流</a>
+                        <div class="item_child">
+                            <div class="container">
+                                <ul class="child_list">
+                                    <li class="first">
+                                        <div class="figure_thumb">
+                                            <a href="#">
+                                                <img src="images/max2_toubu.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="title">
+                                            <a href="#">小米盒子<b>4</b></a>
+                                        </div>
+                                        <P class="price"><b>349</b>元</P>
+                                    </li>
+                                    <li class="">
+                                        <div class="figure_thumb">
+                                            <a href="#">
+                                                <img src="images/max2_toubu.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="title">
+                                            <a href="#">小米盒子<b>4c</b></a>
+                                        </div>
+                                        <P class="price"><b>249</b>元</P>
+                                    </li>
+                                    <li class="">
+                                        <div class="figure_thumb">
+                                            <a href="#">
+                                                <img src="images/max2_toubu.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="title">
+                                            <a href="#">小米盒子<b>3s</b> 四核增强</a>
+                                        </div>
+                                        <P class="price"><b>349</b>元</P>
+                                    </li>
+                                    <li class="">
+                                        <div class="figure_thumb">
+                                            <a href="#">
+                                                <img src="images/max2_toubu.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="title">
+                                            <a href="#">小米盒子<b>3c</b> 独显</a>
+                                        </div>
+                                        <P class="price"><b>199</b>元</P>
+                                    </li>
+                                    <li class="">
+                                        <div class="figure_thumb">
+                                            <a href="#">
+                                                <img src="images/max2_toubu.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="title">
+                                            <a href="#">小米盒子<b>3</b> 增强版</a>
+                                        </div>
+                                        <P class="price"><b>399</b>元</P>
+                                    </li>
+                                    <li class="">
+                                        <div class="figure_thumb">
+                                            <a href="#">
+                                                <img src="images/max2_toubu.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="title">
+                                            <a href="#">小米家庭影院</a>
+                                        </div>
+                                        <P class="price"><b>2099</b>元</P>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav_item">
+                        <a class="list_lin" href="#">时尚女装</a>
+                        <div class="item_child">
+                            <div class="container">
+                                <ul class="child_list">
+                                    <li class="first">
+                                        <div class="figure_thumb">
+                                            <a href="#">
+                                                <img src="images/max2_toubu.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="title">
+                                            <a href="#">米家 <b>iHealth</b> 体温计</a>
+                                        </div>
+                                        <P class="price"><b>129</b>元</P>
+                                    </li>
+                                    <li class="">
+                                        <div class="figure_thumb">
+                                            <a href="#">
+                                                <img src="images/max2_toubu.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="title">
+                                            <a href="#"><b>70</b> 迈智能记录仪</a>
+                                        </div>
+                                        <P class="price"><b>199</b>元</P>
+                                    </li>
+                                    <li class="">
+                                        <div class="figure_thumb">
+                                            <a href="#">
+                                                <img src="images/max2_toubu.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="title">
+                                            <a href="#"><b>TS</b>太阳镜 旅行者款 米家定制</a>
+                                        </div>
+                                        <P class="price"><b>249</b>元</P>
+                                    </li>
+                                    <li class="">
+                                        <div class="figure_thumb">
+                                            <a href="#">
+                                                <img src="images/max2_toubu.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="title">
+                                            <a href="#">铜师傅好运铜葫芦</a>
+                                        </div>
+                                        <P class="price"><b>29</b>元</P>
+                                    </li>
+                                    <li class="">
+                                        <div class="figure_thumb">
+                                            <a href="#">
+                                                <img src="images/max2_toubu.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="title">
+                                            <a href="#">米家电磁炉</a>
+                                        </div>
+                                        <P class="price"><b>299</b>元</P>
+                                    </li>
+                                    <li class="">
+                                        <div class="figure_thumb">
+                                            <a href="#">
+                                                <img src="images/max2_toubu.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="title">
+                                            <a href="#">知吾煮汤锅 米家定制</a>
+                                        </div>
+                                        <P class="price"><b>99</b>元</P>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav_item">
+                        <a class="list_lin" href="#">鞋靴箱包</a>
+                        <div class="item_child">
+                            <div class="container">
+                                <ul class="child_list">
+                                    <li class="first">
+                                        <div class="figure_thumb">
+                                            <a href="#">
+                                                <img src="images/max2_toubu.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="title">
+                                            <a href="#">小米路由器 <b>3A</b></a>
+                                        </div>
+                                        <P class="price"><b>139</b>元</P>
+                                    </li>
+                                    <li class="">
+                                        <div class="figure_thumb">
+                                            <a href="#">
+                                                <img src="images/max2_toubu.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="title">
+                                            <a href="#">小米路由器<b> HD/Pro</b></a>
+                                        </div>
+                                        <P class="price"><b>499</b>元起</P>
+                                    </li>
+                                    <li class="">
+                                        <div class="figure_thumb">
+                                            <a href="#">
+                                                <img src="images/max2_toubu.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="title">
+                                            <a href="#">小米路由器<b> 3G</b></a>
+                                        </div>
+                                        <P class="price"><b>249</b>元</P>
+                                    </li>
+                                    <li class="">
+                                        <div class="figure_thumb">
+                                            <a href="#">
+                                                <img src="images/max2_toubu.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="title">
+                                            <a href="#">小米路由器 <b>3</b></a>
+                                        </div>
+                                        <P class="price"><b>149</b>元</P>
+                                    </li>
+                                    <li class="">
+                                        <div class="figure_thumb">
+                                            <a href="#">
+                                                <img src="images/max2_toubu.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="title">
+                                            <a href="#">小米路由器<b> 3C</b></a>
+                                        </div>
+                                        <P class="price"><b>99</b>元</P>
+                                    </li>
+                                    <li class="">
+                                        <div class="figure_thumb">
+                                            <a href="#">
+                                                <img src="images/max2_toubu.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="title">
+                                            <a href="#">小米<b>WiFi</b>放大器 <b>Pro</b></a>
+                                        </div>
+                                        <P class="price"><b>79</b>元</P>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav_item">
+                        <a class="list_lin" href="#">水果零食</a>
+                        <div class="item_child">
+                            <div class="container">
+                                <ul class="child_list">
+                                    <li class="first">
+                                        <div class="figure_thumb">
+                                            <a href="#">
+                                                <img src="images/max2_toubu.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="title">
+                                            <a href="#">小米无人机</a>
+                                        </div>
+                                        <P class="price"><b>2999</b>元</P>
+                                        <div class="flag">
+                                            <div class="txt">航拍利器</div>
+                                        </div>
+                                    </li>
+                                    <li class="">
+                                        <div class="figure_thumb">
+                                            <a href="#">
+                                                <img src="images/max2_toubu.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="title">
+                                            <a href="#">小米净水器</a>
+                                        </div>
+                                        <P class="price"><b>1499</b>元起</P>
+                                    </li>
+                                    <li class="">
+                                        <div class="figure_thumb">
+                                            <a href="#">
+                                                <img src="images/max2_toubu.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="title">
+                                            <a href="#">米家扫地机器人</a>
+                                        </div>
+                                        <P class="price"><b>1699</b>元</P>
+                                    </li>
+                                    <li class="">
+                                        <div class="figure_thumb">
+                                            <a href="#">
+                                                <img src="images/max2_toubu.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="title">
+                                            <a href="#">米家压力<b>IH</b>电饭煲</a>
+                                        </div>
+                                        <P class="price"><b>999</b>元</P>
+                                    </li>
+                                    <li class="">
+                                        <div class="figure_thumb">
+                                            <a href="#">
+                                                <img src="images/max2_toubu.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="title">
+                                            <a href="#">查看全部</a>
+                                        </div>
+                                        <div class="title">
+                                            <a href="#">智能硬件</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav_item">
+                        <a class="out_lin" href="#">服务</a>
+                    </li>
+                    <li class="nav_item">
+                        <a class="out_lin" href="#">社区</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="head_sub_lit_hd"></div>
+</div>
+</header>
+<div class="main">
+    <div class="box ban_box">
+        <div class="menu">
+            <ul class="site_list">
+                <li class="cate_item">
+                    <a href="#">
+                        <span>男装潮流 西装</span>
+                        <span class="arrow">&#xe628;</span>
+                    </a>
+                    <div class="hd_sub_box hd_3">
+                        <ul class="item">
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="item">
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="item">
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="cate_item">
+                    <a href="#">
+                        <span>时尚女装 礼服 婚庆</span>
+                        <span class="arrow">&#xe628;</span>
+                    </a>
+                    <div class="hd_sub_box hd_4">
+                        <ul class="item">
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="item">
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="item">
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="item">
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="cate_item">
+                    <a href="#">
+                        <span>春装 新品 沙滩裙</span>
+                        <span class="arrow">&#xe628;</span>
+                    </a>
+                    <div class="hd_sub_box hd_3">
+                        <ul class="item">
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="item">
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="item">
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="cate_item">
+                    <a href="#">
+                        <span>夏装 上新 T恤</span>
+                        <span class="arrow">&#xe628;</span>
+                    </a>
+                    <div class="hd_sub_box hd_4">
+                        <ul class="item">
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="item">
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="item">
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="item">
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="cate_item">
+                    <a href="#">
+                        <span>健康 家居</span>
+                        <span class="arrow">&#xe628;</span>
+                    </a>
+                    <div class="hd_sub_box hd_4">
+                        <ul class="item">
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="item">
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="item">
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="item">
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="cate_item">
+                    <a href="#">
+                        <span>出行 儿童</span>
+                        <span class="arrow">&#xe628;</span>
+                    </a>
+                    <div class="hd_sub_box hd_3">
+                        <ul class="item">
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="item">
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="item">
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="cate_item">
+                    <a href="#">
+                        <span>生鲜 奶粉</span>
+                        <span class="arrow">&#xe628;</span>
+                    </a>
+                    <div class="hd_sub_box hd_3">
+                        <ul class="item">
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="item">
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="item">
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="cate_item">
+                    <a href="#">
+                        <span>水果 零食</span>
+                        <span class="arrow">&#xe628;</span>
+                    </a>
+                    <div class="hd_sub_box hd_3">
+                        <ul class="item">
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="item">
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="item">
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="cate_item">
+                    <a href="#">
+                        <span>大牌 进口</span>
+                        <span class="arrow">&#xe628;</span>
+                    </a>
+                    <div class="hd_sub_box hd_4">
+                        <ul class="item">
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="item">
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="item">
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="item">
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="cate_item">
+                    <a href="#">
+                        <span>清洁 服务</span>
+                        <span class="arrow">&#xe628;</span>
+                    </a>
+                    <div class="hd_sub_box hd_4">
+                        <ul class="item">
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="item">
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="item">
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="item">
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/max2_toubu.png" alt="">
+                                    <span>小米<b>MIX 2S</b></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="banner">
+            <div class="side active">
+                <a href="#"><img src="images/banner/banner_01.jpg" alt=""></a>
+            </div>
+            <div class="side">
+                <a href="#"><img src="images/banner/banner_02.jpg" alt=""></a>
+            </div>
+            <div class="side">
+                <a href="#"><img src="images/banner/banner_03.jpg" alt=""></a>
+            </div>
+            <div class="side">
+                <a href="#"><img src="images/banner/banner_04.jpg" alt=""></a>
+            </div>
+            <div class="side">
+                <a href="#"><img src="images/banner/banner_05.jpg" alt=""></a>
+            </div>
+        </div>
+        <div class="ban_arrow prev">&#xe629;</div>
+        <div class="ban_arrow next">&#xe628;</div>
+        <div class="inde">
+            <div class="bean active"></div>
+            <div class="bean"></div>
+            <div class="bean"></div>
+            <div class="bean"></div>
+            <div class="bean"></div>
+        </div>
+    </div>
+    <div class="box home_sub">
+        <div class="hot_list rt">
+            <ul>
+                <li class="first">
+                    <a href="#"><img src="https://img.alicdn.com/simba/img/TB1CCFSnjuhSKJjSspjSuwi8VXa.jpg" alt=""></a>
+                </li>
+                <li>
+                    <a href="#"><img src="https://img.alicdn.com/simba/img/TB1ynN5fXuWBuNjSspnSut1NVXa.jpg" alt=""></a>
+                </li>
+                <li>
+                    <a href="#"><img src="https://img.alicdn.com/simba/img/TB1WJmcfVuWBuNjSszbSuwS7FXa.jpg" alt=""></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="content">
+    <div class="box">
+        <div class="plain_box">
+            <div class="tit">
+                <h2 class="lt">热卖单品</h2>
+                <div class="more rt">
+                    <span>更多 &gt;</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<script src="js/index.js"></script>
+</body>
+</html>
